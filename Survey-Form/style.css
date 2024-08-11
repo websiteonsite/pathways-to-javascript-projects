@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+}
+
+body {
+     background: linear-gradient(to bottom, #a5d6a7 0%, #4caf50 100%);
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.container {
+     border-radius: 10px;
+     width: 78vw;
+     height: 90vh;
+     background-color: whitesmoke;
+}
+
+h2 {
+     color: #366936;
+     font-weight: 600;
+     font-style: normal;
+     padding: .5em;
+}
+
+#survey-content-text {
+     font-weight: 400;
+     font-style: normal;
+     padding: .5em;
+}
+
+.survey-form {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     justify-content: space-around;
+     padding: 1em;
+     font-weight: 500;
+
+}
+
+input {
+     margin: .2em;
+}
+
+p {
+     padding-top: .15em;
+}
+
+.survey-form .form-left {
+     display: flex;
+     flex-direction: column;
+}
+
+.form-left div {
+     display: flex;
+     flex-direction: column;
+     margin: .5em;
+}
+
+.form-right div {
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+}
+
+fieldset legend {
+     margin-left: 10px;
+}
+
+input::placeholder,
+input::selection {
+     color: #4caf50;
+}
+
+
+fieldset {
+     display: flex;
+     justify-content: space-around;
+}
+
+
+select {
+     color: green;
+}
+
+#btn {
+     background-color: #4caf50;
+     border-radius: 5px;
+     border-style: none;
+     height: 2em;
+     margin: .5em;
+     color: #fff;
+}
